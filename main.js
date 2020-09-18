@@ -28,7 +28,7 @@ async function onMessage(message)
 					if(message.member.hasPermission(Discord.Permissions.ALL))
 					{
 						message.author.send("```msgall```");
-						message.reply("Ay sir! I DMed you with my current abilities.");
+						message.reply("Bale.");
 					}
 					else
 					{
@@ -40,7 +40,7 @@ async function onMessage(message)
 						});
 					}
 				break;
-				case "msgall":
+				case "Rekalm":
 					if(message.member.hasPermission(Discord.Permissions.ALL))
 					{
 						message.reply('Copy that!');
